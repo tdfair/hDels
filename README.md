@@ -1,5 +1,7 @@
 # Mapping *cis*- and *trans*-regulatory target genes of human-specific deletions (hDels)
 
+Preprint - https://www.biorxiv.org/content/10.1101/2023.12.27.573461v1
+
 Jupyter Notebooks and shell scripts containing analysis of hDel CRISPRi genetic screens (hDel-v1 and hDel-v2), Omni ATAC-seq, H3K4me1/3 and H3K27ac/me3 CUT&Tag, and hDel Direct-capture Perturb-seq (hDel-v3 and hDel-v4).
 
 For hDel-v1 and hDel-v2, sgRNA-level analysis was performed in DESeq2 followed by hDel-level analysis using α-robust rank aggregation (α-RRA) from MAGeCK.
