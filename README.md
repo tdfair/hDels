@@ -12,6 +12,8 @@ For Omni ATAC-seq & CUT&Tag, sequencing reads were trimmed using Cutadapt and al
 
 ## Usage
 
-* `hDel-v1 CRISPRi screen analysis.ipynb` and `hDel-v2 CRISPRi screen analysis.ipynb`: Perform sgRNA-level differential analysis in DESeq2 starting from a matrix of sgRNA counts and associated metadata and combine sgRNA _p_-values into hDel false discovery rates (FDRs) using α-robust rank aggregation (α-RRA) from MAGeCK
+* `hDel-v1 CRISPRi screen analysis.ipynb`, `hDel-v2 CRISPRi screen analysis.ipynb`, and `DESeq2, hDel-v1 & hDel-v2.ipynb`: Perform sgRNA-level differential analysis in DESeq2 starting from a matrix of sgRNA counts and associated metadata and combine sgRNA _p_-values into hDel false discovery rates (FDRs) using α-robust rank aggregation (α-RRA) from MAGeCK
 
 * `hDel-v3 & hDel-v4, Poisson-Gaussian mixture model sgRNA assignments.ipynb`: Assign sgRNAs to single cells using a Poisson-Gaussian mixture model from Replogle et al., _Nature Biotechnology_ 2020
+
+* Processing Omni ATAC-seq and CUT&Tag: cutadapt.sh -> BowTie2.sh -> samtools_sort_index.sh -> Genrich.sh
