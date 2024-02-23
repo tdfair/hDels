@@ -16,4 +16,4 @@ For Omni ATAC-seq & CUT&Tag, sequencing reads were trimmed using Cutadapt and al
 
 * `hDel-v3 & hDel-v4, Poisson-Gaussian mixture model sgRNA assignments.ipynb`: Assign sgRNAs to single cells using a Poisson-Gaussian mixture model from Replogle et al., _Nature Biotechnology_ 2020
 
-* Processing Omni ATAC-seq and CUT&Tag: cutadapt.sh -> BowTie2.sh -> samtools_sort_index.sh -> Genrich.sh
+* Processing Omni ATAC-seq and CUT&Tag: `cutadapt.sh` -> `BowTie2.sh` -> `samtools_sort_index.sh` -> `Genrich.sh`
