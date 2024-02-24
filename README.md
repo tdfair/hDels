@@ -16,7 +16,7 @@ For Omni ATAC-seq & CUT&Tag, sequencing reads were trimmed using Cutadapt and al
 
 * `hDel-v3 & hDel-v4, Poisson-Gaussian mixture model sgRNA assignments.ipynb`: Assign sgRNAs to single cells using a Poisson-Gaussian mixture model from Replogle et al., _Nature Biotechnology_ 2020
 
-* `hDel-v4 Perturb-seq analysis.ipynb`: Process hDel-v4 Perturb-seq data using Scanpy, generate a pseudobulk per sgRNA using ADPBulk, perform differential expression testing using DESeq2, and apply Benjamini-Hochberg procedure to proximal hDel-gene pairs 
+* `hDel-v4 Perturb-seq analysis.ipynb`: Process hDel-v4 Perturb-seq data using Scanpy, generate a pseudobulk per sgRNA using ADPBulk, perform differential expression testing using DESeq2 `DESeq2, hDel-v4 analysis.ipynb`, and apply Benjamini-Hochberg procedure to proximal hDel-gene pairs 
 
 * Preprocessing hDel-v3 & hDel-v4: a mismatch map for hDel-v3 and hDel-v4 sgRNA libraries was generated using kITE and indexed using kallisto `kb_ref_sgRNA.sh`. Paired-end sequencing reads from the gene expression and Feature Barcode libraries were then pseudoaligned and error-collapsed using kallisto | bustools `kb_count_GEX.sh`, `kb_count_sgRNA.sh`
 
